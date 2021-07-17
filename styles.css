@@ -1,0 +1,15 @@
+@media screen and (min-width: 0px) and (max-width: 375px) {
+    #mobile { display: block; }  /* show it on small screens */
+  }
+  
+  @media screen and (min-width: 376px) and (max-width: 1440px) {
+    #mobile { display: none; }   /* hide it elsewhere */
+  }
+
+  @media screen and (min-width: 0px) and (max-width: 375px) {
+    #desktop { display: none; }  /* hide it on small screens */
+  }
+  
+  @media screen and (min-width: 376px) and (max-width: 1440px) {
+    #desktop { display: block; }   /* show it elsewhere */
+  }
