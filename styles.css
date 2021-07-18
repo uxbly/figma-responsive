@@ -15,301 +15,121 @@ iframe {
     border: 0;
 }
 
+ /* Smartphones */
+ #px320 { display: none; }
+ #px375 { display: none; }
+ #px414 { display: none; }
+ #px568 { display: none; }
+ #px667 { display: none; }
+ #px736 { display: none; }
+ #px812 { display: none; }
+ 
+ /* Tablets */
+ #px768 { display: none; }
+ #px834 { display: none; }
+ #px1024 { display: none; }
+ #px1194 { display: none; }
+ #px1336 { display: none; }
+
+ /* Desktop */
+ #px1440 { display: none; }
+
+
 
 @media screen and (min-width: 0px) and (max-width: 320px) {
-    /* Smartphones */
-    #px320 { display: block; }
-    #px375 { display: none; }
-    #px414 { display: none; }
-    #px568 { display: none; }
-    #px667 { display: none; }
-    #px736 { display: none; }
-    #px812 { display: none; }
-    
-    /* Tablets */
-    #px768 { display: none; }
-    #px834 { display: none; }
-    #px1024 { display: none; }
-    #px1194 { display: none; }
-    #px1336 { display: none; }
 
-    /* Desktop */
-    #px1440 { display: none; }
+    #px320 { display: block !important; }
   }
 
 
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
-    /* Smartphones */
-    #px320 { display: none; }
-    #px375 { display: block; }
-    #px414 { display: none; }
-    #px568 { display: none; }
-    #px667 { display: none; }
-    #px736 { display: none; }
-    #px812 { display: none; }
-    
-    /* Tablets */
-    #px768 { display: none; }
-    #px834 { display: none; }
-    #px1024 { display: none; }
-    #px1194 { display: none; }
-    #px1336 { display: none; }
 
-    /* Desktop */
-    #px1440 { display: none; }
+    #px375 { display: block !important; }
   }
 
 
 
 @media screen and (min-width: 376px) and (max-width: 414px) {
-    /* Smartphones */
-    #px320 { display: none; }
-    #px375 { display: none; }
-    #px414 { display: block; }
-    #px568 { display: none; }
-    #px667 { display: none; }
-    #px736 { display: none; }
-    #px812 { display: none; }
-    
-    /* Tablets */
-    #px768 { display: none; }
-    #px834 { display: none; }
-    #px1024 { display: none; }
-    #px1194 { display: none; }
-    #px1336 { display: none; }
 
-    /* Desktop */
-    #px1440 { display: none; }
+    #px414 { display: block !important; }
   }
 
 
 
 @media screen and (min-width: 415px) and (max-width: 568px) {
-    /* Smartphones */
-    #px320 { display: none; }
-    #px375 { display: none; }
-    #px414 { display: none; }
-    #px568 { display: block; }
-    #px667 { display: none; }
-    #px736 { display: none; }
-    #px812 { display: none; }
-    
-    /* Tablets */
-    #px768 { display: none; }
-    #px834 { display: none; }
-    #px1024 { display: none; }
-    #px1194 { display: none; }
-    #px1336 { display: none; }
 
-    /* Desktop */
-    #px1440 { display: none; }
+    #px568 { display: block !important; }
   }
 
 
 
 @media screen and (min-width: 569px) and (max-width: 667px) {
-    /* Smartphones */
-    #px320 { display: none; }
-    #px375 { display: none; }
-    #px414 { display: none; }
-    #px568 { display: none; }
-    #px667 { display: block; }
-    #px736 { display: none; }
-    #px812 { display: none; }
+  
+    #px667 { display: block !important; }
     
-    /* Tablets */
-    #px768 { display: none; }
-    #px834 { display: none; }
-    #px1024 { display: none; }
-    #px1194 { display: none; }
-    #px1336 { display: none; }
-
-    /* Desktop */
-    #px1440 { display: none; }
   }
 
 
 
 @media screen and (min-width: 668px) and (max-width: 736px) {
-    /* Smartphones */
-    #px320 { display: none; }
-    #px375 { display: none; }
-    #px414 { display: none; }
-    #px568 { display: none; }
-    #px667 { display: none; }
-    #px736 { display: block; }
-    #px812 { display: none; }
     
-    /* Tablets */
-    #px768 { display: none; }
-    #px834 { display: none; }
-    #px1024 { display: none; }
-    #px1194 { display: none; }
-    #px1336 { display: none; }
-
-    /* Desktop */
-    #px1440 { display: none; }
+    #px736 { display: block !important; }
+    
   }
 
 
 
 @media screen and (min-width: 737px) and (max-width: 768px) {
-    /* Smartphones */
-    #px320 { display: none; }
-    #px375 { display: none; }
-    #px414 { display: none; }
-    #px568 { display: none; }
-    #px667 { display: none; }
-    #px736 { display: none; }
-    #px812 { display: block; }
-    
-    /* Tablets */
-    #px768 { display: none; }
-    #px834 { display: none; }
-    #px1024 { display: none; }
-    #px1194 { display: none; }
-    #px1336 { display: none; }
 
-    /* Desktop */
-    #px1440 { display: none; }
+    #px812 { display: block !important; }
+    
   }
 
 
 
 @media screen and (min-width: 769px) and (max-width: 812px) {
-    /* Smartphones */
-    #px320 { display: none; }
-    #px375 { display: none; }
-    #px414 { display: none; }
-    #px568 { display: none; }
-    #px667 { display: none; }
-    #px736 { display: none; }
-    #px812 { display: none; }
-    
-    /* Tablets */
-    #px768 { display: block; }
-    #px834 { display: none; }
-    #px1024 { display: none; }
-    #px1194 { display: none; }
-    #px1336 { display: none; }
+   
+    #px768 { display: block !important; }
 
-    /* Desktop */
-    #px1440 { display: none; }
   }
 
 
 
 @media screen and (min-width: 813px) and (max-width: 834px) {
-    /* Smartphones */
-    #px320 { display: none; }
-    #px375 { display: none; }
-    #px414 { display: none; }
-    #px568 { display: none; }
-    #px667 { display: none; }
-    #px736 { display: none; }
-    #px812 { display: none; }
-    
-    /* Tablets */
-    #px768 { display: none; }
-    #px834 { display: block; }
-    #px1024 { display: none; }
-    #px1194 { display: none; }
-    #px1336 { display: none; }
 
-    /* Desktop */
-    #px1440 { display: none; }
+    #px834 { display: block !important; }
+
   }
 
 
 
 @media screen and (min-width: 835px) and (max-width: 1024px) {
-    /* Smartphones */
-    #px320 { display: none; }
-    #px375 { display: none; }
-    #px414 { display: none; }
-    #px568 { display: none; }
-    #px667 { display: none; }
-    #px736 { display: none; }
-    #px812 { display: none; }
-    
-    /* Tablets */
-    #px768 { display: none; }
-    #px834 { display: none; }
-    #px1024 { display: block; }
-    #px1194 { display: none; }
-    #px1336 { display: none; }
 
-    /* Desktop */
-    #px1440 { display: none; }
+    #px1024 { display: block !important; }
   }
 
 
 
 @media screen and (min-width: 1025px) and (max-width: 1194px) {
-    /* Smartphones */
-    #px320 { display: none; }
-    #px375 { display: none; }
-    #px414 { display: none; }
-    #px568 { display: none; }
-    #px667 { display: none; }
-    #px736 { display: none; }
-    #px812 { display: none; }
-    
-    /* Tablets */
-    #px768 { display: none; }
-    #px834 { display: none; }
-    #px1024 { display: none; }
-    #px1194 { display: block; }
-    #px1336 { display: none; }
 
-    /* Desktop */
-    #px1440 { display: none; }
+    #px1194 { display: block !important; }
+  
   }
 
 
 
 @media screen and (min-width: 1195px) and (max-width: 1336px) {
-    /* Smartphones */
-    #px320 { display: none; }
-    #px375 { display: none; }
-    #px414 { display: none; }
-    #px568 { display: none; }
-    #px667 { display: none; }
-    #px736 { display: none; }
-    #px812 { display: none; }
-    
-    /* Tablets */
-    #px768 { display: none; }
-    #px834 { display: none; }
-    #px1024 { display: none; }
-    #px1194 { display: none; }
-    #px1336 { display: block; }
+  
+    #px1336 { display: block !important; }
 
-    /* Desktop */
-    #px1440 { display: none; }
   }
 
 
 
 @media screen and (min-width: 1336px) and (max-width: 1440px) {
-    /* Smartphones */
-    #px320 { display: none; }
-    #px375 { display: none; }
-    #px414 { display: none; }
-    #px568 { display: none; }
-    #px667 { display: none; }
-    #px736 { display: none; }
-    #px812 { display: none; }
     
-    /* Tablets */
-    #px768 { display: none; }
-    #px834 { display: none; }
-    #px1024 { display: none; }
-    #px1194 { display: none; }
-    #px1336 { display: none; }
+    #px1440 { display: block !important; }
 
-    /* Desktop */
-    #px1440 { display: block; }
   }
 
